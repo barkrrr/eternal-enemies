@@ -30,5 +30,5 @@ Live.prototype.draw = function() {
   self.ctx.fillStyle = 'yellow';
   var xPosition = self.x - self.size / 2;
   var yPosition = self.y - self.size / 2;
-  self.ctx.fillRect(xPosition, yPosition, self.size.self.size);
+  self.ctx.fillRect(xPosition, yPosition, self.size, self.size);
 };

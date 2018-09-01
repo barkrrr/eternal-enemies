@@ -171,10 +171,10 @@ Game.prototype.checkIfEnemiesCollidedPlayer = function () {
 
 Game.prototype.checkIfCirclesCollidedPlayer = function () {
   var self = this;
-  self.cirlces.forEach( function(item, index) {
+  self.circles.forEach( function(item, index) {
     if (self.player.collidesWithEnemy(item)) {
       self.score ++;
-      self.cirlces.splice(index, 1);
+      self.circles.splice(index, 1);
     }
   });
 };
